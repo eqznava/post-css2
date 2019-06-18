@@ -189,9 +189,25 @@
 }
 
 .show{
+  display: flex;
   position: relative;
-  /* border: 1px solid blue; */
   height: 118px;
   width: 100%;
   background-image: linear-gradient(to right, red, pink);
+}
+
+.vs{
+  object-fit: cover;
+}
+
+.svideo{
+  display: flex;
+  margin: 0px;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.svideo p{
+  margin-left: 20px;
+  width: 200px;
 }
